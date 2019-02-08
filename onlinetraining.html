@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online training</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"><link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Bootstrap -->
+
+
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css"  href="css/style1.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300" rel="stylesheet" type="text/css">
+ 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="swiper.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" type="text/css"  href="css/style1.css">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+ <style type="text/css">
+    
+   #our-team{
+            margin-top: 80px;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: sans-serif;
+            background: #262626;
+
+        }
+         .testimonials{
+            margin: 50px auto 100px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 20px;
+
+
+        }
+          .testimonials .card{
+            position: relative;
+            width: 350px;
+            margin: 0 auto;
+            background: #333;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,.5);
+            overflow: hidden;
+        }
+        .testimonial .card .layer{
+            position: absolute;
+            top: calc(100% - 2px);
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#03a9f4, #e91ee3);
+            z-index: 1;
+            transition: 0.5s; 
+        }
+       .testimonials .card:hover .layer
+        {
+            top: 0;
+        }
+          .testimonials .card .content
+        {   
+            position: relative;
+            z-index: 2;
+
+        }
+        .testimonials .card .content p
+        {
+            font-size: 18px;
+            line-height: 24px;
+            color: #fff;
+        }
+          .testimonials .card .content .image
+        {  
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            overflow: hidden;
+            border: 4px solid #fff;
+            box-shadow: 0 10px 40px rgba(0,0,0,.2);
+        }
+          .testimonials .card .content .details h2
+        {
+            font-size: 18px;
+            color: #fff;
+        }
+          .testimonials .card .content p span
+        {
+            color: #03a9f4;
+            font-size: 20px;
+            transition: 0.5s;
+        }
+        .ad{
+            height:70px;
+            background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .btn_size{
+            width:80%;
+            background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+            </style>
+
+</head>
+<body>
+    
+    <div  id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- Navigation -->
+        <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+          <div class="container"> 
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+              <a class="navbar-brand page-scroll" href="#page-top" style="color: #fff;"><img src="photos/Logo-Transparant.png" height="30px"></a><!-- <img src="photos/Logo-Transparant.png" height="20px"  style="margin-left:10px; margin-right: 60%;"> </a> --> </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#page-top" class="page-scroll" style="color: #fff;">Home</a></li>
+                <li><a href="#services" class="page-scroll" style="color: #fff;">Services</a></li>
+                <li><a href="#about" class="page-scroll" style="color: #fff;">About</a></li>
+                <li><a href="#portfolio" class="page-scroll" style="color: #fff;">Portfolio</a></li>
+                <li><a href="#team" class="page-scroll" style="color: #fff;">Team</a></li>
+                <li><a href="#contact" class="page-scroll" style="color: #fff;">Contact</a></li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse --> 
+          </div>
+          <!-- /.container-fluid --> 
+        </nav>
+        <header id="header">
+            <div class="intro text-center">
+              <div class="overlay">
+                <div class="container">
+                  <div class="row">
+                    <div class="intro-text">
+                      <p style="font-size: 30px;">Data Analytics, Visualization and Prediction with SAS<span class="brand" style="font-size: 40px;"><br> "DATA-ANALYTICS"</span></p>
+                       
+                      <a href="#services" class="btn btn-default btn-lg page-scroll" style="color: #25BAD0;
+            background-color: transparent;
+            border: 2px solid #25BAD0;
+            padding: 12px 20px;
+            margin: 0;
+            font-size: 15px;
+            border-radius: 0;
+            text-transform: uppercase;">Find Out More </a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          </div>
+
+          <div class="conatiner ad">
+              <div class="row">
+                <div class="col-lg-6"">
+                <h3 style="margin-left: 30px;">Data Analytics with SAS : Rs. 25000</h3>
+                </div>
+            
+                  <br>  <div class="col-lg-3">
+                <button type="button" class="btn btn-info btn-lg">Enrol Now</button>
+                <button type="button" class="btn btn-info btn-lg">Mode : Online</button>
+            </div>
+            <br><br>
+            </div>
+        </div>
+        <br><br>   
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2" style="margin-left:230px; background-color: slategray;">
+                    <h2 style="color:white;">30+ hrs</h2>
+                    <h4 style="color:white;">Live Monitering</h4>
+                </div>
+                <div class="col-lg-2" style="margin-left:10px; background-color: slategray;">
+                        <h2 style="color:white;">40+ hrs</h2>
+                        <h4 style="color:white;">Coding Assignment</h4>
+                    </div>
+                    <div class="col-lg-2" style="margin-left:10px; background-color: slategray;">
+                            <h2 style="color:white;">4+</h2>
+                            <h4 style="color:white;">Real Life Projects</h4>
+                        </div>
+                        <div class="col-lg-2" style="margin-left:10px; background-color: slategray;">
+                                <h2 style="color:white;">3+</h2>
+                                <h4 style="color:white;">Industy Cases</h4>
+                            </div>
+                        
+            </div>
+
+        </div>
+        <br>
+        <div class="container">
+            <h1>Modules Included</h1>
+            <div class=" row">
+                <div class="col-lg-10">
+                <div class="container-fluid">
+
+                        <button type="button" class="btn btn-info btn_size" data-toggle="collapse" data-target="#demo"><h3>SAS - Introduction - Data importing</h3></button>
+                        <div id="demo" class="collapse">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                      
+
+                    
+                </div>
+            </div>
+
+            <div class="col-lg-10" style="padding-top:20px;">
+                    <div class="container-fluid">
+
+                            <button type="button" class="btn btn-info btn_size" data-toggle="collapse" data-target="#demo1"><h3>SAS - Data manipulation</h3></button>
+                            <div id="demo1" class="collapse">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                          
+                    </div>
+                </div>
+
+                <div class="col-lg-10" style="padding-top:20px;">
+                        <div class="container-fluid">
+
+                                <button type="button" class="btn btn-info btn_size" data-toggle="collapse" data-target="#demo2"><h3>SAS - Exploratory Data Analysis & Data Visualization</h3></button>
+                                <div id="demo2" class="collapse">
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                              
+                        
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-10" style="padding-top:20px;">
+                            <div class="container-fluid">
+
+                                <button type="button" class="btn btn-info btn_size" data-toggle="collapse" data-target="#demo3"><h3>SAS - Reporting-Output Exporting</h3></button>
+                                    <div id="demo3" class="collapse">
+                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                  
+                            
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-lg-10" style="padding-top:20px;">
+                                <div class="container-fluid">
+
+                                        <button type="button" class="btn btn-info btn_size" data-toggle="collapse" data-target="#demo3"><h3>SAS - Advanced SAS (Proc SQL - Macros)-Optimizing SAS</h3></button>
+                                        <div id="demo3" class="collapse">
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </div>
+                                      
+                                
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-10" style="padding-top:20px;">
+                                    <div class="container-fluid">
+
+                                            <button type="button" class="btn btn-info btn_size" data-toggle="collapse" data-target="#demo4"><h3>Know How of Statistics Concepts</h3></button>
+                                            <div id="demo4" class="collapse">
+                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            </div>
+                                          
+                                
+                                        
+                                    </div>
+                                </div>
+            </div>
+        </div>
+
+        <div class="container" style="padding-top:40px;">
+            <h1>What You Get?</h1>
+            <div class="row">
+                <div class="col-lg-4 ad">
+                    <h3>Experential Learning</h3>
+                </div>
+                <div class="col-lg-4 ad" >
+
+                    <h3>Hybrid Model of Learning</h3>
+                </div>
+                <div class="col-lg-4 ad" >
+                     <h3>Hybrid Model of Learning</h3>
+                    </div>
+    
+
+            </div>
+
+        </div>
+        <div style="padding-top:30px;">
+        <div class="container-fluid" style="background-image: linear-gradient(to right, #868f96 0%, #596164 100%);; height:auto; padding-top:10px;">
+            <div class="row">
+                <div class="col-lg-6">
+            <h1 style="color:whitesmoke;">Start with Downloading our syllabus</h1>
+            </div>
+
+            <div class="col-lg-6">
+                <button class="btn btn-lg" style="background-color:deepskyblue;color:white;"><h4>Download</h4></button>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+                <h1>Upcoming Batches</h1>
+        </div>
+        <div style="padding-top: 30px;">
+        <div class="container-fluid" style="background: #00B4DB;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height:auto;">
+            <div class="conatiner" style="padding-top: 30px;">
+                <div style="background-image: linear-gradient(to right, #868f96 0%, #596164 100%);">
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-1">
+                        <h3 style="color:white;">DURATION</h3>
+                        <h4 style="color:white;">12-12-2018 To 12-02-2019</h4>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 style="color:white;">COURSES FEES:- INR 25000</h3>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-1">
+                        <h3 style="color:white;">TIMING</h3>
+                        <h4 style="color:white;">11:00 - 13:00 IST</h4>
+                    </div>
+                    <div class="col-lg-6">
+                        <button class="btn btn-info btn-lg">Enrol Now</button>
+                    </div>
+
+                </div>
+                <br><hr>
+                <br>
+                <div class="row">
+                        <div class="col-lg-4 col-lg-offset-1">
+                            <h3 style="color:white;">DURATION</h3>
+                            <h4 style="color:white;">27-01-2019 To 24-03-2019</h4>
+    
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 style="color:white;">COURSES FEES:- INR 25000</h3>
+                        </div>
+    
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-offset-1">
+                            <h3 style="color:white;">TIMING</h3>
+                            <h4 style="color:white;">9:00AM - 11:00AM IST</h4>
+                        </div>
+                        <div class="col-lg-6">
+                            <button class="btn btn-info btn-lg">Enrol Now</button>
+                        </div>
+    
+                    </div>
+                    <br><hr>
+                    <br>
+                    <div class="row">
+                            <div class="col-lg-4 col-lg-offset-1">
+                                <h3 style="color:white;">DURATION</h3>
+                                <h4 style="color:white;">27-01-2019 To 28-04-2019</h4>
+        
+                            </div>
+                            <div class="col-lg-6">
+                                <h3 style="color:white;">COURSES FEES:- INR 25000</h3>
+                            </div>
+        
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-lg-offset-1">
+                                <h3 style="color:white;">TIMING</h3>
+                                <h4 style="color:white;">9:00AM - 11:00AM IST</h4>
+                            </div>
+                            <div class="col-lg-6">
+                                <button class="btn btn-info btn-lg">Enrol Now</button>
+                            </div>
+        
+                        </div>
+                        <hr>
+                            
+                </div>
+            </div>
+
+        </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-4">
+                <h2 style="color:deepskyblue;">Invest Now in a Data Science Career</h2>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-12 col-lg-offset-1">
+                    <h4>The field of data science is thriving as it is proving to be effective not just across industries but also across departments within organizations.</h4>
+                </div>
+            </div>
+            
+
+    </div>
+
+    <
+</div>
+<br>
+<div id="contact" class="text-center"  >
+        <div class="overlay">
+          <div class="container">
+            <div class="col-md-8 col-md-offset-2 section-title">
+              <h2 style="line-height: 20px;
+        margin: 0;
+        color: #25BAD0;
+        margin-bottom: 30px;
+        font-size: 40px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-bottom: 10px;">Get In Touch</h2>
+              <p style="font-size: 15px; color: #fff"><img src="photos/Logo-Transparant.png" height="30px"><br><br>Prepare for the most promising career opportunity. "DATA-ANALYTICS"<br> Adv. Excel | SAS | SPSS | R | PYTHON | TABLEAU | MACHINE LEARNING | BIG DATA & HADOOP</p>
+            </div>
+            <div class="row" style="color: #fff">
+              <div class= col-md-3>
+                <p><span class="glyphicon glyphicon-envelope"></span><br> mail@antrixacademy.com</p>
+              </div>
+              <div class= col-md-3>
+                <p><span class="glyphicon glyphicon-earphone"></span><br>(+91) 8130-371-253</p>
+              </div>
+              
+              <div class= col-md-3>
+                <p><span class="glyphicon glyphicon-file"></span><br>(+91) 9971-283-969</p>
+              </div>
+              <div class= col-md-3>
+                <p><span class="glyphicon glyphicon-map-marker"></span><br>Bhagmal Complex, 110, 1st Floor, 
+                                                                      Captain Vijyant Thapar Marg, Naya Bans,
+                                                                      Naya Bans Village, Sector 15,
+                                                                      Noida, Uttar Pradesh 201301, India</p>
+              </div>
+              
+            </div>
+            
+              <div class="social">
+                <!-- <ul>
+                  <li><a href="#"><i class="fa fa-facebook" style="color: #fff;"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" style="color: #fff;"></i></a></li>
+                  <li><a href="#"><i class="fa fa-dribbble" style="color: #fff;"></i></a></li>
+                  <li><a href="#"><i class="fa fa-github" style="color: #fff;"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" style="color: #fff;"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin" style="color: #fff;"></i></a></li>
+                </ul> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div id="footer">
+        <div class="container text-center">
+          <div class="fnav">
+            <p style="font-size: 15px;"> Designed by <a href="#">Antrix Academy of Data Science</a></p>
+          </div>
+        </div>
+      </div>
+      
+
+        <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

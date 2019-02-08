@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+
+
+
+  <head>
+       <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Antrix Academy</title>
+    <link rel="shortcut icon" href="photos/croped_logo.jpg" />
+<meta name="description" content="">
+<meta name="author" content="">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">ss</script>
+<!-- Favicons
+    ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"><link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Bootstrap -->
+
+
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css"  href="css/style1.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300" rel="stylesheet" type="text/css">
+ 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="swiper.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" type="text/css"  href="css/style1.css">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript">
+$(function () {
+    $('.marquee').marquee({
+        duration: 5000,
+         duplicated: true,
+         gap: 00, 
+         direction: 'left',
+         pauseOnHover: true
+    });
+});
+</script>
+
+ <style type="text/css">
+ .marquee {
+    width: 100%;
+    overflow: hidden;
+    border:1px solid #ccc;
+}
+.img{
+  height:200px;
+  width: 200px;
+}
+   #our-team{
+            margin-top: 40px;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: sans-serif;
+            background: #262626;
+
+        }
+         .testimonials{
+            margin: 50px auto 100px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 20px;
+
+
+        }
+          .testimonials .card{
+            position: relative;
+            width: 350px;
+            margin: 0 auto;
+            background: #333;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,.5);
+            overflow: hidden;
+        }
+        .testimonial .card .layer{
+            position: absolute;
+            top: calc(100% - 2px);
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#03a9f4, #e91ee3);
+            z-index: 1;
+            transition: 0.5s; 
+        }
+       .testimonials .card:hover .layer
+        {
+            top: 0;
+        }
+          .testimonials .card .content
+        {   
+            position: relative;
+            z-index: 2;
+
+        }
+        .testimonials .card .content p
+        {
+            font-size: 18px;
+            line-height: 24px;
+            color: #fff;
+        }
+          .testimonials .card .content .image
+        {  
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            overflow: hidden;
+            border: 4px solid #fff;
+            box-shadow: 0 10px 40px rgba(0,0,0,.2);
+        }
+          .testimonials .card .content .details h2
+        {
+            font-size: 18px;
+            color: #fff;
+        }
+          .testimonials .card .content p span
+        {
+            color: #03a9f4;
+            font-size: 20px;
+            transition: 0.5s;
+        }
+   
+ </style>
+  </head>
+
+
+
+  <body>
+    <div  id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation -->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top" style="color: #fff;"><img src="photos/Logo-Transparant.png" height="30px"></a><!-- <img src="photos/Logo-Transparant.png" height="20px"  style="margin-left:10px; margin-right: 60%;"> </a> --> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#page-top" class="page-scroll" style="color: #fff;">Home</a></li>
+        <li><a href="partners.html" class="page-scroll" style="color: #fff;">Partners</a></li>
+        <li><a href="placement.html" class="page-scroll" style="color: #fff;">Placement</a></li>
+        <li><a href="onlinetraining.html" class="page-scroll" style="color: #fff;">Online Training</a></li>
+        <!-- <li><a href="#team" class="page-scroll" style="color: #fff;">Team</a></li> -->
+        <li><a href="#contact" class="btn btn-success" style="color: #fff;" data-toggle="modal" data-target="#exampleModal">Contact</a></li>
+      </ul>
+      
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<!-- Header -->
+<header id="header">
+  <div class="intro text-center">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <p style="font-size: 30px;">Prepare for the most promising career opportunity.<span class="brand" style="font-size: 40px;"><br> "DATA-ANALYTICS"</span></p>
+             
+            <a href="#services" class="btn btn-default btn-lg page-scroll" style="color: #25BAD0;
+  background-color: transparent;
+  border: 2px solid #25BAD0;
+  padding: 12px 20px;
+  margin: 0;
+  font-size: 15px;
+  border-radius: 0;
+  text-transform: uppercase;">Find Out More </a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+</div>
+
+
+
+
+
+
+<!--Our COURSES -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><center>Contact Us</center></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form method="post" class="form1">
+              <div class="form-group">
+                 <label>Name</label>
+               <input type="text" name="name" class="form-control" placeholder="Name" required="">
+               </div>
+             <div class="form-group">
+                 <label>Email</label>
+               <input type="email" name="email" class="form-control" placeholder="Email" required="">
+               </div>
+             <div class="form-group">
+                 <label>Contact Number</label>
+               <input type="number" name="contact" class="form-control" placeholder="Contact Number" required="">
+               </div>
+             <div class="form-group">
+                 <label>Message</label>
+                       <textarea type="text" name="msg" class="form-control" required="" placeholder="Message"></textarea>
+               </div>
+             <div class="form-group" align="center">
+               <button type="submit" class="btn btn-success btn-sm" name="feed">Submit</button>
+             </div>
+                             </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7007.2705467044725!2d77.314426!3d28.580713000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc95010e013c9cf6f!2sAntrix+Academy+of+Data+Science+training+courses+in+Noida!5e0!3m2!1sen!2sin!4v1545391454495" width="100%" height="400" style="padding:5px;" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="my-courses">
+	<center><h1 style="color: black;"><br>Our Popular Courses</h1></center>
+		<div class="swiper-container">
+	    <div class="swiper-wrapper">
+ 
+ <div class="swiper-slide slide text-center  Stop slick-slide  " style="width: 342px; border: 2px solid Teal;" data-slick-index="8" aria-hidden="true" tabindex="-1"><div style="background-color: Teal; height:15%; text-align: center; padding-top: 3%; border-color: Teal; border-spacing: 10%; color: #fff" ><b>Certified Big Data Expert </b></div>
+				<br><br>
+				<center><img src="photos/hadoop.png"></center>
+				<p class="TextSliderData">
+					Big Data, Hadoop, HDFC, Hive, Pig, HBase, Sqoop, MySQL, MapReduce...<br> <br>
+				<a href="big-data-expert-course.php" class="btn btn-success" tabindex="-1">Know More...</a>
+				</p>
+</div>
+
+<div class="swiper-slide slide text-center Stop slick-slide " tabindex="0" style="width: 342px; border: 2px solid Teal;" data-slick-index="4" aria-hidden="false"><div style="background-color: Teal; height:15%; text-align: center; padding-top: 3%; border-color: Teal; border-spacing: 10%; color: #fff;" ><b>Data Analytics with Excel</b></div>
+	             <br>
+				<center><img src="photos/excel.png"></center>
+				<br>
+				<p class="TextSliderData">
+				Excel, Advanced Excel Tools, VBA Based Data Analytic...
+				<br><br>
+				<a href="data-analytic-with-excel.php" class="btn btn-success" tabindex="0">Know More...</a>
+				</p>
+</div>
+	 
+		
+	 
+	 
+		<div class="swiper-slide slide text-center Stop slick-slide slick-current slick-active active" style="width: 342px; border: 2px solid Teal;" data-slick-index="1" aria-hidden="true" tabindex="-1"><div style="background-color: Teal; height:15%; text-align: center; padding-top: 3%; border-color: Teal; border-spacing: 10%; color: #fff;" ><b>Data Analytics with SAS</b></div><br>
+				<center><img src="photos/sas.png"></center><br>
+				<p class="TextSliderData">
+				Base SAS Programming &amp; Advanced SAS Programing with Proc SQL Macros...<br><br>
+				<a href="data-analytics-with-sas.php" class="btn btn-success" tabindex="-1">Know More...</a>
+				</p>
+				
+		</div>
+	 
+	 
+		<div class="swiper-slide slide text-center Stop slick-slide " style="width: 342px; border: 2px solid Teal;" data-slick-index="2" aria-hidden="false" tabindex="0"><div style="background-color: Teal; height:15%; text-align: center; padding-top: 3%; border-color: Teal; border-spacing: 10%; color: #fff; " ><b>Data Analytics with R</b></div><br>
+				<center><img src="photos/r.png"></center><br>
+				<p class="TextSliderData">
+				Accessing &amp; Importing Data, Data Manipulation, Data Visualisation...<br><br>
+				<a href="data-analytics-with-r.php" class="btn btn-success" tabindex="0">Know More...</a>
+				</p>
+		</div>
+	 
+	 
+		<div class="swiper-slide slide text-center Stop slick-slide " style="width: 342px; border: 2px solid Teal;" data-slick-index="3" aria-hidden="false" tabindex="0"><div style="background-color: Teal; height:15%; text-align: center; padding-top: 3%; border-color: Teal; border-spacing: 10%; color: #fff;" ><b>Data Analytics with Python</b></div>   <br>
+				<center><img src="photos/python.png"></center><br>
+				<p class="TextSliderData">
+				Accessing &amp; Importing Data, Data Manipulation, Statistics Analysis...<br><br>
+				<a href="data-analytic-with-python.php" class="btn btn-success" tabindex="0">Know More...</a>
+				</p>
+		</div>
+	 
+	 
+		<div class="swiper-slide slide text-center Stop slick-slide" style="width: 342px; border: 2px solid Teal;" data-slick-index="4" aria-hidden="true" tabindex="-1"><div style="background-color: Teal; height:15%; text-align: center; padding-top: 3%; border-color: Teal; border-spacing: 10%; color: #fff;" ><b>Data Analytics with Excel</b></div><br>
+				<center><img src="photos/excel.png"></center><br>
+				<p class="TextSliderData">
+				Excel, Advanced Excel Tools, VBA Based Data Analytic...
+				<br><br>
+				<a href="data-analytic-with-excel.php" class="btn btn-success" tabindex="-1">Know More...</a>
+				</p>
+		</div>
+	 
+	 
+		<div class="swiper-slide slide text-center Stop slick-slide" tabindex="-1" style="width: 342px; border: 2px solid Teal;" data-slick-index="6" aria-hidden="true"><div style="background-color: Teal; height:15%; text-align: center; padding-top: 3%; border-color: Teal; border-spacing: 10%;color: #fff;" ><b>Data Analytics with IBM-SPSS</b></div><br>
+				<center><img src="photos/spss.png"></center><br>
+				<p class="TextSliderData">
+				Creating &amp; Reading DataSets in SPSS, Analyzing Data in SPSS using Statistical...<br><br>
+				<a href="data-analytics-with-ibm-spss.php" class="btn btn-success" tabindex="-1">Know More...</a>
+				</p>
+		</div>
+	 
+	 
+		<div class="swiper-slide slide text-center Stop slick-slide " style="width: 342px; border: 2px solid Teal;" data-slick-index="7" aria-hidden="false" tabindex="0"><div style="background-color: Teal; height:15%; text-align: center; padding-top: 3%; border-color: Teal; border-spacing: 10%; color: #fff;" ><b>Machine Learning with R</b></div><br>
+				<center><img src="photos/machine_learning.png"></center><br>
+				<p class="TextSliderData">
+				Introduction to ML, Supervised Learning,Unsupervised Learning,  Social...<br><br>
+				<a href="machine-learning-with-r.php" class="btn btn-success" tabindex="0">Know More...</a>
+				</p>
+		</div>
+	 
+		</div> <br><br>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination"></div>
+	    </div></marquee>
+	<script type="text/javascript" src="swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</div>
+<!-------------->
+<br>
+<center><h2>Our 20+ Key Clients</h2></center>
+<br>
+<div id="maindiv">
+  <div id="div1">
+    &nbsp;<img src="photos/Img1.jpg " width="200" height="200" alt="W3docs" />&nbsp
+      <img src="photos/Img2.jpg" width="200" height="200" alt="W3docs" />&nbsp&nbsp
+      <img src="photos/Img3.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img4.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img5.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img6.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img7.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img8.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img9.jpg" width="200" height="200" alt="W3docs" />
+ 
+  </div>
+  <div id="div2">
+    &nbsp;<img src="photos/Img1.jpg " width="200" height="200" alt="W3docs" />&nbsp
+      <img src="photos/Img2.jpg" width="200" height="200" alt="W3docs" />&nbsp&nbsp
+      <img src="photos/Img3.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img4.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img5.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img6.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img7.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img8.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img9.jpg" width="200" height="200" alt="W3docs" />
+ 
+  </div>
+</div>
+<center><h2>Our Key Placement Partners</h2></center>
+<br>
+<div id="maindiv">
+  <div id="div1">
+    &nbsp;<img src="photos/Pimg1.jpg " width="200" height="200" alt="W3docs" />&nbsp
+      <img src="photos/Pimg2.jpg" width="200" height="200" alt="W3docs" />&nbsp&nbsp
+      <img src="photos/Pimg3.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg4.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg5.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg6.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg7.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg8.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg9.jpg" width="200" height="200" alt="W3docs" />
+ 
+  </div>
+  <div id="div2">
+    &nbsp;<img src="photos/Pimg1.jpg " width="200" height="200" alt="W3docs" />&nbsp
+      <img src="photos/Pimg2.jpg" width="200" height="200" alt="W3docs" />&nbsp&nbsp
+      <img src="photos/Pimg3.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg4.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg5.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg6.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg7.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg8.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Pimg9.jpg" width="200" height="200" alt="W3docs" />
+ 
+  </div>
+</div>
+
+<center><h2>Our Key Assessment Partners</h2></center><br>
+<div id="maindiv">
+  <div id="div1">
+    &nbsp;<img src="photos/Img10.jpg " width="200" height="200" alt="W3docs" />&nbsp
+      <img src="photos/Img12.jpg" width="200" height="200" alt="W3docs" />&nbsp&nbsp
+      <img src="photos/Img13.jpg" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img14.png" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img15.jpg" width="200" height="200" alt="W3docs" />
+      
+      <img src="photos/Img17.png" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img18.png" width="200" height="200" alt="W3docs" />
+      <img src="photos/Img19.jpg" width="200" height="200" alt="W3docs" />
+ 
+  </div>
+  <div id="div2">
+    &nbsp;<img src="photos/Img10.jpg " width="200" height="200" alt="W3docs" />&nbsp
+    <img src="photos/Img12.jpg" width="200" height="200" alt="W3docs" />&nbsp&nbsp
+    <img src="photos/Img13.jpg" width="200" height="200" alt="W3docs" />
+    <img src="photos/Img14.png" width="200" height="200" alt="W3docs" />
+    <img src="photos/Img15.jpg" width="200" height="200" alt="W3docs" />
+    <img src="photos/Img17.png" width="200" height="200" alt="W3docs" />
+    <img src="photos/Img18.png" width="200" height="200" alt="W3docs" />
+    <img src="photos/Img19.jpg" width="200" height="200" alt="W3docs" />
+ 
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script  src="index1.js"></script>
+<!-------OUR TEAM------------------------>
+<div id="our-team">
+    <center><h1 style="color: #fff;"><br>Learn from the best Trainers</h1></center>
+    <div class="testimonials">
+        <div class="card">
+            <div class="layer"></div>
+                <div class="content">
+                    <p><span> Rajinder Chitoria<br></span><br>Professional with over 14 years of career reflecting Corporate Training qualifications and hands-on experience in Microsoft Technologies. Also good in Data Analytics Tools like SAS, Big Data & Hadoop and Adv. Excel etc.<br>
+ </p>
+                    <div class="image">
+                        <img src="photos/person-man.png" , alt=" " width="100px", height="100px">
+                    </div>
+                    <div class="details">
+                        <h2>
+                        <h2> Specialization : MS Excel & VBA.<br> <hr>
+ <br>Trained more than 3000+ students on MS Excel & VBA <br><hr>
+<br>Companies worked with : HCL, NIIT, I.E.&T, Guwahati , Mahindra Comviva , Orange , AON</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+            <div class="layer"></div>
+                <div class="content">
+                    <p><span>Monica Gupta<br></span><br>A result oriented professional, 17 + years overall experience in Management and Corporate Training. Presently working as a Technical Consultant Corporate, for Training, E-Learning Material Development, Software Development and Project Management.</p>
+                    <div class="image">
+                        <img src="photos/person-female.png" , alt=" " width="100px", height="100px">
+                    </div>
+                    <div class="details">
+                        <h2> Specialization : MS Excel & VBA.<br><hr>
+ <br>Trained more than 3000+ students on MS Excel & VBA <br><hr>
+<br>Companies worked with : HCL, NIIT, I.E.&T, Guwahati , Mahindra Comviva , Orange , AON</span></h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+            <div class="layer"></div>
+                <div class="content">
+                    <p><span>Ashman Malhotra<br></span><br>Accomplished, motivated and versatile IT professional; Web Administrator, PHP, PHP7, MySql, .NET software developer, Python, support analyst and Occasional Lecturer with 10 years of experience in the IT industry. </p>
+                    <div class="image">
+                        <img src="photos/person-man.png" , alt=" " width="100px", height="100px">
+                    </div>
+                    <div class="details">
+                        <h2><br>Specialization : Python, PHP<hr>
+ <br>Trained more than 3000+ students on MS Excel & VBA <hr>
+ <br>Companies worked with : IBM, Gurgaon, HCL - Noida, CDAC - Delhi</h2>
+                    </div>
+                </div>
+            </div> 
+         
+    </div>
+
+    <div class="testimonials">
+        <div class="card">
+            <div class="layer"></div>
+                <div class="content">
+                    <p><span> M.A.KHAN<br></span><br>A technically sophisticated professional with over 14 years of career reflecting Corporate Training qualifications and hands-on experience in Software Development. <br>
+ </p>
+                    <div class="image">
+                        <img src="photos/person-man.png" , alt=" " width="100px", height="100px">
+                    </div>
+                    <div class="details">
+                        <h2>Specialization :Java Programming and PHP Based Web Development<hr><br>
+ Trained more than 3000 corporate employees and college students 
+<br>
+ </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+            <div class="layer"></div>
+                <div class="content">
+                    <p><span>B. KUMAR<br></span><br>Senior professional on Cloud Computing, Big DATA, IOT(Internet of Things) , 11 + years overall experience in IOT and Embedded System Consulting. Has development more 20 industrial projects for corporate on IoT with Embedded Systems </p>
+                    <div class="image">
+                        <img src="photos/person-man.png" , alt=" " width="100px", height="100px">
+                    </div>
+                    <div class="details">
+                        <h2> Specialization :  IoT, Embedded Systems<br> <hr>
+ <br>Trained more than 2000 college students on IoT & Embedded <br>
+ </span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+            <div class="layer"></div>
+                <div class="content">
+                    <p><span>SUJAN K DEB<br></span><br>Qualified Technical Professional With 10 Years Of IT Consulting With Strong Expertise in Corporate Training, Consulting System Integration & Security and Training Manager.  </p>
+                    <div class="image">
+                        <img src="photos/person-man.png" , alt=" " width="100px", height="100px">
+                    </div>
+                    <div class="details">
+                        <h2><br>Specialization : CompTIA, CCNA, Microsoft<hr>
+ <br>Taken 150+ batches and trained 1500+ students on CCNA(R&S), Information Security, Windows Server 2012 & Hyper-V Virtualization. 
+  </h2>
+                    </div>
+                </div>
+            </div> 
+         
+    </div>
+</div>
+<!--------------------------------------->
+
+
+<!---------paytm---------------->
+<!-- <div id="paytm">
+<div class="container">
+<div class="row">
+   <div class="col-9">
+    <center><h1 style="color: black;"><u>Pay your fees online for training.</u></h1></center>
+  </div>
+   
+  <div class="col-3"><br>
+     <button class="btn btn-success">Pay Now!!</button>
+   </div>
+</div>
+
+   <div class="row">
+   <div class="col">
+    <center><h3>Payment Mode : Credit Cards/Debit Cards/Net Banking/Payment Wallets<br>
+Powered by PayTM</h3></center><hr>
+</div>
+</div>
+<div class="row">
+   <div class="col">
+    <center><img src="photos/WS_PayTM.jpg"></center>
+    </div>
+</div>
+
+</div>
+</div>  -->
+<!--------------------------->
+
+
+<div id="contact" class="text-center"  >
+  <div class="overlay">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2 section-title">
+        <h2 style="line-height: 20px;
+  margin: 0;
+  color: #25BAD0;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 10px;">Get In Touch</h2>
+        <p style="font-size: 15px; color: #fff"><img src="photos/Logo-Transparant.png" height="30px"><br><br>Prepare for the most promising career opportunity. "DATA-ANALYTICS"<br> Adv. Excel | SAS | SPSS | R | PYTHON | TABLEAU | MACHINE LEARNING | BIG DATA & HADOOP</p>
+      </div>
+      <div class="row" style="color: #fff">
+        <div class= col-md-3>
+          <p><span class="glyphicon glyphicon-envelope"></span><br> mail@antrixacademy.com</p>
+        </div>
+        <div class= col-md-3>
+          <p><span class="glyphicon glyphicon-earphone"></span><br>(+91) 8130-371-253</p>
+        </div>
+        
+        <div class= col-md-3>
+          <p><span class="glyphicon glyphicon-file"></span><br>(+91) 9971-283-969</p>
+        </div>
+        <div class= col-md-3>
+          <p><span class="glyphicon glyphicon-map-marker"></span><br>Bhagmal Complex, 110, 1st Floor, 
+                                                                Captain Vijyant Thapar Marg, Naya Bans,
+                                                                Naya Bans Village, Sector 15,
+                                                                Noida, Uttar Pradesh 201301, India</p>
+        </div>
+        
+      </div>
+      <div class="col-md-8 col-md-offset-2 margin-top:0 px" style="margin-top:0 px;">
+        
+        <div class="social">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p style="font-size: 15px;"> Designed by <a href="#">Antrix Academy of Data Science</a></p>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+
+
+
+
+  </body>
+  </html>
